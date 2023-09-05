@@ -4,8 +4,8 @@ import './navbar.css';
 
 export const Navbar = () => {
     return (
-        <nav>
-            <div className="border1pxSolidBlack fontColorWhite backgroundColorBlack">
+        <nav className="displayFlexNav">
+            <div className="">
                 Silvis' Portfolio
              </div>
             <div className="links">

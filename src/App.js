@@ -16,9 +16,13 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
+
       <header className="App-header">
         Header
       </header>
+      <main>
+        Main
+      </main>
       <footer>
         Footer
       </footer>

@@ -4,7 +4,7 @@ import './personal.css';
 
 export const Personal = () => {
     return (
-        <div className="personalContainer">
+        <div className="personalContainer gradient">
             <header>
                 <h1>Personal</h1>
             </header>

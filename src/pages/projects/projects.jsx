@@ -2,8 +2,16 @@ import React from "react";
 
 export const Projects = () => {
     return (
-        <div>
-            <h1>Projects</h1>
-        </div>
+        <div className="projectContainer">
+        <header>
+            <h1>Contact</h1>
+        </header>
+        
+        <main>
+            <div className="projects">
+                This section will be about my projects.
+            </div>
+        </main>
+    </div>
     )
 }

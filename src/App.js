@@ -4,6 +4,7 @@ import { Navbar } from './components/navbar';
 import { Personal } from "./pages/personal/personal";
 import { Projects } from "./pages/projects/projects";
 import { Contact } from "./pages/contact/contact";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -17,15 +18,7 @@ function App() {
         </Routes>
       </Router>
 
-      <header className="App-header">
-        Header
-      </header>
-      <main>
-        Main
-      </main>
-      <footer>
-        Footer
-      </footer>
+      <Footer />
     </div>
   );
 }

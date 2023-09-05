@@ -1,4 +1,6 @@
 import React from "react";
+import { Avatar } from "../../components/avatar";
+import './personal.css';
 
 export const Personal = () => {
     return (
@@ -9,6 +11,7 @@ export const Personal = () => {
 
             <main>
                 <div className="aboutMe">
+                    <Avatar />
                     This section will be about me.
                 </div>
             </main>

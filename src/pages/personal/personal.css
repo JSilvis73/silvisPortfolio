@@ -1,0 +1,7 @@
+.personalContainer {
+    height: 90vh;
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

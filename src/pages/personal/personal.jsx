@@ -1,6 +1,7 @@
 import React from "react";
 import { Avatar } from "../../components/avatar";
 import './personal.css';
+import avatarDefault from '../../assets/images/avatarDefault.jpg';
 
 export const Personal = () => {
     return (
@@ -10,8 +11,13 @@ export const Personal = () => {
             </header>
 
             <main>
-                <div className="aboutMe">
-                    <Avatar />
+                <div className="avatarContainer">
+                    <Avatar 
+                    img={avatarDefault}
+                    />
+                    
+                </div>
+                <div className="aboutMeContainer centerText">
                     This section will be about me.
                 </div>
             </main>

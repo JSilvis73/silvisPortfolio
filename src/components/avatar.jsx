@@ -1,12 +1,13 @@
 import React from "react";
+import '../../src/pages/personal/personal.css'
 
 
-export const Avatar = () => {
+export const Avatar = (props) => {
 
 
     return (
         <div className="avatarContainer">
-            <img src="personalportfolio\src\components\avatar.jsx" />
+            <img src={props.img} />
         </div>
     )
 }

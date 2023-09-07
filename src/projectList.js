@@ -16,6 +16,6 @@ export const projectList = [
         name: 'LowLimit Ecom',
         image:lowLimitEcom,
         desc: 'desc',
-        url: 'display url'
+        url: 'https://github.com/JSilvis73/LowLimitEcom'
     }
 ]

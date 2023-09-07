@@ -1,19 +1,43 @@
 /* projects page styling */
 .projectsContainer {
-
     color: black;
     height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+
 }
 
 
 
 /* project styling */
+.projectWrapper {
+    height: 500px;
+}
+
 .projectImage {
     height: auto;
     width: 300px;
 
+}
+
+
+
+/* additional style tags */
+.displayFlexColCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayGridTwoCol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 4rem;
+}
+
+.marginTop10perc {
+    margin-top: 10%;
+}
+
+.testBorder {
+    border: 2px solid greenyellow;
 }

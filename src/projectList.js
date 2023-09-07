@@ -8,12 +8,14 @@ export const projectList = [
         id: 1,
         name: 'FoodFinder',
         image:foodFinder,
+        desc: 'describe project',
         url: 'display url'
     },
     {
         id: 2,
         name: 'LowLimit Ecom',
         image:lowLimitEcom,
+        desc: 'desc',
         url: 'display url'
     }
 ]

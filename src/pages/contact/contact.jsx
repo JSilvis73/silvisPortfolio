@@ -1,4 +1,5 @@
 import React from "react";
+import '../contact/contact.css';
 
 export const Contact = () => {
     return (
@@ -7,9 +8,15 @@ export const Contact = () => {
                 <h1>Contact</h1>
             </header>
             
-            <main>
-                <div className="contactMe">
-                    This section will be about how to contact me.
+            <main className="mainContainer">
+                <div className="phoneContainer">
+                    330-940-9233
+                </div>
+                <div className="emailContainer">
+                    JSilvis@yahoo.com
+                </div>
+                <div className="githubContainer">
+                    Github
                 </div>
             </main>
         </div>

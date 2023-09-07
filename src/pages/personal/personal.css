@@ -1,4 +1,7 @@
+
 .personalContainer {
+
+    color: black;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -8,17 +11,26 @@
 .avatarContainer {
     height: fit-content;
     width: fit-content;
-    border: 2px solid red;
+   
     
 }
 .avatarContainer > img {
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
+    box-shadow: 5px 5px 15px black;
 }
 
 .aboutMeContainer {
     margin: 5%;
+}
+
+.backgroundGrey {
+    background-color: lightgray;
+}
+
+.marginTop15 {
+    margin-top: 15%;
 }
 
 .gradient {

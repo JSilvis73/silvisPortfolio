@@ -1,14 +1,19 @@
+import lowLimitEcom from './assets/images/lowLimitEcom.png'
+import foodFinder from './assets/images/foodFinder.png';
+
+
+
 export const projectList = [
     {
         id: 1,
-        name: 'TestOne',
-        image:'',
+        name: 'FoodFinder',
+        image:foodFinder,
         url: 'display url'
     },
     {
         id: 2,
-        name: 'TestTwo',
-        image:'',
+        name: 'LowLimit Ecom',
+        image:lowLimitEcom,
         url: 'display url'
     }
 ]

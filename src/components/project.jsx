@@ -9,7 +9,7 @@ export const Project = (props) => {
                 <h3 className="projectHeader marginTop10perc">{props.name}</h3>
                 <img className="projectImage marginTop10perc" src={props.image} />
                  <p className="marginTop10perc height50px">{props.desc}</p>
-                 <a className="projectURL" href={props.url}>{props.url}</a>
+                 <a className="projectURL" href={props.url}>{props.urlDesc}</a>
             </div>
         </div>
     )

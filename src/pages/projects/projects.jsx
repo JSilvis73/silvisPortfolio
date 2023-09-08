@@ -18,6 +18,7 @@ export const Projects = () => {
                 image={project.image}
                 desc={project.desc}
                 url={project.url}
+                urlDesc={project.urlDesc}
                 />)}
             </div>
         </main>

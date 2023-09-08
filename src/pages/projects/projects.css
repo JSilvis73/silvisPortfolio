@@ -9,6 +9,7 @@
 /* project styling */
 .projectWrapper {
     height: 500px;
+    width: 300px;
     border: 2px solid blue;
     border-radius: 15px;
 
@@ -51,6 +52,7 @@
 .marginTop10perc {
     margin-top: 10%;
 }
+
 
 /* .testBorder {
     border: 2px solid greenyellow;

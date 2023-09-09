@@ -33,21 +33,21 @@ export const Personal = () => {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src={fEndLanguage} class="d-block w-100" alt="..."/>
+                <img src={fEndLanguage} class="d-block w-100" alt="Font-end languages logo"/>
                 <div class="carousel-caption d-none d-md-block">
                   <h5> Coding Languages</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
              <div class="carousel-item">
-               <img src={reactLogo} class="d-block w-100" alt="..."/>
+               <img src={reactLogo} class="d-block w-100" alt="React logo"/>
                <div class="carousel-caption d-none d-md-block">
                   <h5>Framworks</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={githubLogo} class="d-block w-100" alt="..."/>
+                <img src={githubLogo} class="d-block w-100" alt="Github Logo"/>
                 <div class="carousel-caption d-none d-md-block">
                    <h5>Skills</h5>
                    <p>Some representative placeholder content for the third slide.</p>

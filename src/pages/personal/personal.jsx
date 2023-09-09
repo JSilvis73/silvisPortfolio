@@ -9,23 +9,27 @@ import githubLogo from '../../assets/images/rubaitul-azad-HLQDfaJUTVI-unsplash (
 
 export const Personal = () => {
     return (
-        <div className="">
-            <header>
+        <div className="personalContainer ">
+
+            
+            <header className="centerText mt-4">
                 <h1>Jason Silvis</h1>
             </header> 
 
+            <div className="personalContainerUpper mt-4">
             <div>
                 <Avatar 
                 img={avatarDefault}
                 />
             </div>
 
-            <div>
+            <div className="mt-4">
                 This section will be about me.
+            </div>
             </div>
             
             
-            <div  class="carousel slide">
+            <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>

@@ -3,8 +3,8 @@ import { Avatar } from "../../components/avatar";
 import './personal.css';
 import avatarDefault from '../../assets/images/avatarDefault.jpg';
 import fEndLanguage from '../../assets/images/front-end-stack.png';
-import reactLogo from '../../assets/images/React.jpeg';
-import githubLogo from '../../assets/images/rubaitul-azad-HLQDfaJUTVI-unsplash (1).jpg';
+import frameworks from '../../assets/images/Frameworks.jpeg';
+import github from '../../assets/images/github.jpeg';
 
 
 export const Personal = () => {
@@ -24,12 +24,12 @@ export const Personal = () => {
             </div>
 
             <div className="mt-4">
-                This section will be about me.
+            Hello, I'm Jason L Silvis, a passionate software engineer on a mission to craft exceptional digital experiences. With expertise in JavaScript, React, and Node.js, I bring creativity and precision to every project. My journey in coding is driven by a deep love for problem-solving and a commitment to user-centric design. When I'm not coding, you'll find me spending time with my family, which fuels my creativity and keeps me inspired. Let's collaborate and create something extraordinary!
             </div>
             </div>
             
             
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <div id="carouselExampleCaptions" class="carousel slide mt-4">
                 <div class="carousel-indicators">
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -44,14 +44,14 @@ export const Personal = () => {
                 </div>
               </div>
              <div class="carousel-item">
-               <img src={reactLogo} class="d-block w-100" alt="React logo"/>
+               <img src={frameworks} class="d-block w-100" alt="React logo"/>
                <div class="carousel-caption d-none d-md-block">
                   <h5>Framworks</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={githubLogo} class="d-block w-100" alt="Github Logo"/>
+                <img src={github} class="d-block w-100" alt="Github Logo"/>
                 <div class="carousel-caption d-none d-md-block">
                    <h5>Skills</h5>
                    <p>Some representative placeholder content for the third slide.</p>

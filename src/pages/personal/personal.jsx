@@ -3,8 +3,8 @@ import { Avatar } from "../../components/avatar";
 import './personal.css';
 import avatarDefault from '../../assets/images/avatarDefault.jpg';
 import fEndLanguage from '../../assets/images/front-end-stack.png';
-import frameworks from '../../assets/images/Frameworks.jpeg';
-import github from '../../assets/images/github.jpeg';
+import frameworks from '../../assets/images/Frameworks.png';
+import github from '../../assets/images/github.png';
 
 
 export const Personal = () => {
@@ -51,21 +51,21 @@ export const Personal = () => {
                 <img src={fEndLanguage} class=" caroImg d-block w-100" height="400px" alt="Font-end languages logo"/>
                 <div class="carousel-caption d-none d-md-block">
                   <h5> Coding Languages</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
+                  <p>Unlock the potential of your online presence with my expertise in HTML, CSS, and JavaScript.</p>
                 </div>
               </div>
              <div class="carousel-item">
                <img src={frameworks} class="d-block w-100" height="400px" alt="React logo"/>
                <div class="carousel-caption d-none d-md-block">
                   <h5>Framworks</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
+                  <p>Empower your digital presence with my mastery of versatile web frameworks.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src={github} class="d-block w-100" height="400px" alt="Github Logo"/>
                 <div class="carousel-caption d-none d-md-block">
                    <h5>Skills</h5>
-                   <p>Some representative placeholder content for the third slide.</p>
+                   <p>Transforming code collaboration into an art form, I leverage the power of GitHub.</p>
                 </div>
                </div>
              </div>

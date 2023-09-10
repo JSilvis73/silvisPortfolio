@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(to bottom, #d4d4d4, #ffffff);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-image: linear-gradient(to bottom, #ffffff, #d8d8d8);
     height: 100vh; /* Adjust the height as needed */
     margin: 0;
 }
-  

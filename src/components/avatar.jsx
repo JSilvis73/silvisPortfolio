@@ -1,5 +1,5 @@
 import React from "react";
-import '../../src/pages/personal/personal.css'
+import '../../src/components/avatar.css'
 
 
 export const Avatar = (props) => {
@@ -7,7 +7,7 @@ export const Avatar = (props) => {
 
     return (
         <div className="avatarContainer">
-            <img src={props.img} />
+            <img src={props.img}  height={props.height}/>
         </div>
     )
 }

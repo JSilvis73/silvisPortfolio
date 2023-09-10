@@ -1,9 +1,11 @@
 footer {
-    border: 1px solid lightblue;
-    background-color: lightblue;
+    height: 2vh;
+    border: 3px solid lightgray;
+    background-color: lightgray;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
 }

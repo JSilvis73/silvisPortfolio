@@ -8,6 +8,7 @@ import { Footer } from "./components/footer";
 
 function App() {
   return (
+   <body>
     <div className="App">
       <Router>
         <Navbar />
@@ -17,9 +18,11 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
-
+      
       <Footer />
+      
     </div>
+    </body>
   );
 }
 

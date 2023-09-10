@@ -12,7 +12,7 @@ export const Personal = () => {
         <div className="personalContainer ">
 
             
-            <header className="centerText mt-4">
+            <header className="centerText mt-5">
                 <h1>Jason Silvis</h1>
             </header> 
 
@@ -20,12 +20,22 @@ export const Personal = () => {
             <div>
                 <Avatar 
                 img={avatarDefault}
-                height='350px'
+                height='325px'
                 />
             </div>
 
-            <div className="mt-4">
-            Hello, I'm Jason L Silvis, a passionate software engineer on a mission to craft exceptional digital experiences. With expertise in JavaScript, React, and Node.js, I bring creativity and precision to every project. My journey in coding is driven by a deep love for problem-solving and a commitment to user-centric design. When I'm not coding, you'll find me spending time with my family, which fuels my creativity and keeps me inspired. Let's collaborate and create something extraordinary!
+            <div className="mt-5 centerText">
+            Hello, I'm Jason L Silvis, 
+            <br />
+            a passionate software engineer on a mission to craft exceptional digital experiences. 
+            <br />
+            With expertise in JavaScript, React, and Node.js, I bring creativity and precision to every project.
+            <br />
+            My journey in coding is driven by a deep love for problem-solving and a commitment to user-centric design. 
+            <br />
+            When I'm not coding, you'll find me spending time with my family, which fuels my creativity and keeps me inspired. 
+            <br />
+            Let's collaborate and create something extraordinary!
             </div>
             </div>
             
@@ -38,21 +48,21 @@ export const Personal = () => {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src={fEndLanguage} class="d-block w-100" alt="Font-end languages logo"/>
+                <img src={fEndLanguage} class=" caroImg d-block w-100" height="400px" alt="Font-end languages logo"/>
                 <div class="carousel-caption d-none d-md-block">
                   <h5> Coding Languages</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
              <div class="carousel-item">
-               <img src={frameworks} class="d-block w-100" alt="React logo"/>
+               <img src={frameworks} class="d-block w-100" height="400px" alt="React logo"/>
                <div class="carousel-caption d-none d-md-block">
                   <h5>Framworks</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={github} class="d-block w-100" alt="Github Logo"/>
+                <img src={github} class="d-block w-100" height="400px" alt="Github Logo"/>
                 <div class="carousel-caption d-none d-md-block">
                    <h5>Skills</h5>
                    <p>Some representative placeholder content for the third slide.</p>

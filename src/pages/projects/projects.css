@@ -36,12 +36,6 @@
     align-items: center;
 }
 
-/* .displayFlexRowCenter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
 
 .displayFlexRow {
     display: flex;
@@ -52,12 +46,3 @@
   
    gap: 5em;
 }
-/*
-.marginTop10perc {
-    margin-top: 10%;
-} */
-
-
-/* .testBorder {
-    border: 2px solid greenyellow;
-} */

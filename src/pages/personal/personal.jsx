@@ -20,7 +20,7 @@ export const Personal = () => {
             <div>
                 <Avatar 
                 img={avatarDefault}
-                height='325px'
+                height='300px'
                 />
             </div>
 

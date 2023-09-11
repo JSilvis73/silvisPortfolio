@@ -8,7 +8,7 @@ export const projectList = [
         id: 1,
         name: 'FoodFinder',
         image:foodFinder,
-        desc: 'Tired of hearing the "IDK you pick"? Well here is the solution to that problem. FoodFinder is an application that allows you to pick food options and then spin to see where you go!',
+        desc: 'No idea what to have for dinner? FoodFinder can help you choose! Let it pick for you.',
         url: 'display url',
         urlDesc: 'GitHub FoodFinder'
     },

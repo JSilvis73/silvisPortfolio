@@ -1,10 +1,15 @@
 /* projects page styling */
 
+
+
+
 .projectsContainer {
     color: black;
     height: 100%;
-}
 
+
+    
+}
 
 
 /* project styling */
@@ -36,7 +41,7 @@
     padding: 5px;
 
     border: 3px solid greenyellow;
-    background-color: lightgrey;
+    background-color: rgb(214, 214, 214);
     border-radius: 15px;
 }
 
@@ -55,3 +60,30 @@
    justify-content: space-around;
    gap: 5em;
 }
+
+
+@keyframes shakeAnimation {
+    0% {
+        transform: rotate(0);
+      }
+      25% {
+        transform: rotate(-2deg);
+      }
+      50% {
+        transform: rotate(2deg);
+      }
+      75% {
+        transform: rotate(-2deg);
+      }
+      100% {
+        transform: rotate(0);
+      }
+  }
+  
+  .shake-animation {
+    animation: shakeAnimation 0.5s infinite;
+  }
+  
+      
+  
+

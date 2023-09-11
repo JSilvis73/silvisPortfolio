@@ -11,7 +11,7 @@ export const Projects = () => {
         </header>
         
         <main>
-            <div className="projectsListContainer displayGridTwoCol">
+            <div className="projectsListContainer displayFlexRow">
                 {projectList.map((project) => <Project 
                 key={project.id}
                 name={project.name} 

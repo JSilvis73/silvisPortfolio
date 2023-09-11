@@ -19,5 +19,13 @@ export const projectList = [
         desc: 'LowLimit is a E-Commerse one-stop-shop for all of your online shopping needs. Pick from clothing to electronics, we have all your needs!',
         url: 'https://github.com/JSilvis73/LowLimitEcom',
         urlDesc: 'GitHub LowLimit'
+    },
+    {
+        id: 3,
+        name: 'Example',
+        image:lowLimitEcom,
+        desc: 'Just an example!',
+        url: 'https://github.com/JSilvis73/LowLimitEcom',
+        urlDesc: 'GitHub LowLimit'
     }
 ]

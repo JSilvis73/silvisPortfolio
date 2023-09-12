@@ -1,6 +1,6 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-image: linear-gradient(to bottom, #ffffff, rgb(59, 201, 248), #d8d8d8, #d8d8d8);
+     background-image: linear-gradient(to bottom, white, rgb(59, 201, 248), #d8d8d8, #d8d8d8);
         background-repeat: no-repeat;
     
      height: 100%; /* Adjust the height as needed */

@@ -1,5 +1,6 @@
 import React from "react";
 import '../contact/contact.css';
+import { Button } from "../../components/button";
 
 export const Contact = () => {
     return (
@@ -8,16 +9,30 @@ export const Contact = () => {
                 <h1>Contact</h1>
             </header>
             
-            <main className="mainContainer displayFlexColCenter">
-                <div className="phoneContainer">
+            <main className="mainContainer displayFlexColCenter mt-4">
+
+                
+
+                <div className="phoneContainer text-center mt-4">
+                    Phone:
+                    <br />
                     330-940-9233
                 </div>
-                <div className="emailContainer">
+
+                <br />
+
+                <div className="emailContainer text-center">
+                    Email:
+                    <br />
+                    JSilvis73@gmail.com
+                    <br />
                     JSilvis@yahoo.com
                 </div>
-                <div className="githubContainer">
-                   <a href="https://github.com/JSilvis73"><button>Github</button></a>
-                </div>
+                <br />
+
+                
+
+                <Button name="MyGitHub" url='https://github.com/JSilvis73'/>
             </main>
         </div>
     )

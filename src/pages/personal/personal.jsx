@@ -48,21 +48,21 @@ export const Personal = () => {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active ">
-                <img src={fEndLanguage} class="d-block w-100" height="400px" alt="Font-end languages logo"/>
+                <img src={fEndLanguage} class="d-block w-100" height="500px" alt="Font-end languages logo"/>
                 <div class="carousel-caption d-none d-md-block  mt-2">
                   <h5> Coding Languages</h5>
                   <p>Unlock the potential of your online presence with expertise in HTML, CSS and JavaScript.</p>
                 </div>
               </div>
              <div class="carousel-item">
-               <img src={frameworks} class="d-block w-100" height="400px" alt="React logo"/>
+               <img src={frameworks} class="d-block w-100" height="500px" alt="React logo"/>
                <div class="carousel-caption d-none d-md-block">
                   <h5>Frameworks</h5>
                   <p>Empower your digital presence with my mastery of versatile web frameworks.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src={github} class="d-block w-100" height="400px" alt="Github Logo"/>
+                <img src={github} class="d-block w-100" height="500px" alt="Github Logo"/>
                 <div class="carousel-caption d-none d-md-block">
                    <h5>Skills</h5>
                    <p>Transforming code collaboration into an art form, I leverage the power of GitHub.</p>

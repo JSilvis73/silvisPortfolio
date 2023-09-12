@@ -7,11 +7,7 @@
     align-items: center;
 }
 
-.carousel-item {
-    height: 100%;
-    width: 100%;
 
-}
 
  /* Misc. Style attributes */
 .carousel-caption {
@@ -22,7 +18,3 @@
 .centerText {
     text-align: center;
 }
-
-.testBorder {
-    border: 2px solid red;
-} 

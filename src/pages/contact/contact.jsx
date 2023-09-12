@@ -3,12 +3,12 @@ import '../contact/contact.css';
 
 export const Contact = () => {
     return (
-        <div className="contactContainer">
-            <header>
+        <div className="contactContainer displayFlexColCenter">
+            <header className="centerText mt-5">
                 <h1>Contact</h1>
             </header>
             
-            <main className="mainContainer">
+            <main className="mainContainer displayFlexColCenter">
                 <div className="phoneContainer">
                     330-940-9233
                 </div>

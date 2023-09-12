@@ -9,7 +9,7 @@ import github from '../../assets/images/github.png';
 
 export const Personal = () => {
     return (
-        <div className="personalContainer ">
+        <div className="personalContainer displayFlexColCenter ">
 
             
             <header className="centerText mt-5">

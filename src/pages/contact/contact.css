@@ -1,8 +1,21 @@
 .contactContainer {
-
     color: black;
     height: 90vh;
+}
+
+.mainContainer {
+    height: 400px;
+    width:300px;
+
+    padding: 5px;
+
+    border: 2px solid orangered;
+    border-radius: 15px;
+}
+
+.displayFlexColCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+

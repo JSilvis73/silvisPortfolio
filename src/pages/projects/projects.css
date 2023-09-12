@@ -25,6 +25,7 @@
     box-shadow: 5px 5px 10px black;
 }
 
+
 .projectImage {
     
     height: 255px; /* fix after format pictures*/
@@ -37,13 +38,27 @@
     height: 175px;
     width: 255px;
 
-    margin-top: 10px;
+    margin: 10px;
     padding: 5px;
 
     border: 3px solid greenyellow;
     background-color: rgb(214, 214, 214);
     border-radius: 15px;
 }
+
+.project-desc {
+    height: 110px;
+}
+
+.card-inner  button {
+    border-radius: 7px;
+}
+
+.card-inner  a {
+    text-decoration: none;
+}
+
+
 
 /* additional style tags */
  .displayFlexColCenter {

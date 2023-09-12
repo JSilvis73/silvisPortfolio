@@ -16,8 +16,8 @@ export const Project = (props) => {
                 <h5 className="projectHeader">{props.name}</h5>
                 <img className="projectImage" src={props.image} />
                 <div className="card-inner displayFlexColCenter">
-                 <p >{props.desc}</p>
-                 <a className="projectURL" href={props.url}>{props.urlDesc}</a>
+                 <p className="project-desc">{props.desc}</p>
+                 <button><a className="projectURL" href={props.url}>{props.urlDesc}</a></button>
                 </div>
             </div>
         </div> 

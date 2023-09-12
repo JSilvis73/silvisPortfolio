@@ -1,7 +1,7 @@
 import React from "react";
 import '../contact/contact.css';
 import { Button } from "../../components/button";
-import {Phone, Envelope,} from 'phosphor-react';
+import {Phone, Envelope, GithubLogo} from 'phosphor-react';
 import { Avatar } from "../../components/avatar";
 import avatarDefault from '../../assets/images/avatarDefault.jpg';
 
@@ -39,7 +39,7 @@ export const Contact = () => {
 
                 <br />
 
-                <Button name="MyGitHub" url='https://github.com/JSilvis73'/>
+                <Button name="MyGitHub" url='https://github.com/JSilvis73' icon={<GithubLogo />}/>
             </main>
         </div>
     )

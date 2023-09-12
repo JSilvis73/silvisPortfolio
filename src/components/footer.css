@@ -1,7 +1,6 @@
 footer {
     height: 3vh;
-    border: 3px solid lightgray;
-    background-color: lightgray;
+    background-color: transparent;
 
     display: flex;
     flex-direction: column;

@@ -7,7 +7,7 @@ export const Avatar = (props) => {
 
     return (
         <div className="avatarContainer">
-            <img src={props.img}  height={props.height}/>
+            <img src={props.img}  height={props.height} />
         </div>
     )
 }

@@ -1,7 +1,4 @@
-.personalContainer {
 
-}
-  
 .personalContainerUpper{
     display: flex;
     flex-direction: column;
@@ -11,11 +8,12 @@
 }
 
 .carousel-item {
-    height: 450px;
+    height: 400px;
     width: 100%;
 
 }
 
+ /* Misc. Style attributes */
 .carousel-caption {
     color: black;
 }

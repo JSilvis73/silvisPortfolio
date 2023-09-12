@@ -20,11 +20,11 @@ export const Personal = () => {
             <div>
                 <Avatar 
                 img={avatarDefault}
-                height='300px'
+                height='275px'
                 />
             </div>
 
-            <div className="mt-5 centerText">
+            <div className=" mt-5 centerText">
             Hello, I'm Jason L Silvis, 
             <br />
             a passionate software engineer on a mission to craft exceptional digital experiences. 
@@ -40,7 +40,7 @@ export const Personal = () => {
             </div>
             
             
-            <div id="carouselExampleCaptions" class="carousel slide ">
+            <div id="carouselExampleCaptions personalContainerLower" class="carousel slide ">
                 <div class="carousel-indicators">
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>

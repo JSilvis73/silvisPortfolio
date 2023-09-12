@@ -17,7 +17,7 @@ export const Project = (props) => {
                 <img className="projectImage" src={props.image} />
                 <div className="card-inner displayFlexColCenter">
                  <p className="project-desc">{props.desc}</p>
-                 <button><a className="projectURL" href={props.url}>{props.urlDesc}</a></button>
+                 <a href={props.url}><button className="projectURL" >{props.urlDesc}</button></a>
                 </div>
             </div>
         </div> 

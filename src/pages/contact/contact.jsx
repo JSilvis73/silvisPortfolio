@@ -1,6 +1,7 @@
 import React from "react";
 import '../contact/contact.css';
 import { Button } from "../../components/button";
+import {Phone, Envelope,} from 'phosphor-react';
 
 export const Contact = () => {
     return (
@@ -14,7 +15,7 @@ export const Contact = () => {
                 
 
                 <div className="phoneContainer text-center mt-4">
-                    Phone:
+                    <Phone /> Phone:
                     <br />
                     330-940-9233
                 </div>
@@ -22,7 +23,7 @@ export const Contact = () => {
                 <br />
 
                 <div className="emailContainer text-center">
-                    Email:
+                    <Envelope /> Email:
                     <br />
                     JSilvis73@gmail.com
                     <br />

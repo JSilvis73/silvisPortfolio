@@ -16,7 +16,7 @@ export const Contact = () => {
                     JSilvis@yahoo.com
                 </div>
                 <div className="githubContainer">
-                    Github
+                   <a href="https://github.com/JSilvis73"><button>Github</button></a>
                 </div>
             </main>
         </div>

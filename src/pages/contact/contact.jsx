@@ -2,6 +2,8 @@ import React from "react";
 import '../contact/contact.css';
 import { Button } from "../../components/button";
 import {Phone, Envelope,} from 'phosphor-react';
+import { Avatar } from "../../components/avatar";
+import avatarDefault from '../../assets/images/avatarDefault.jpg';
 
 export const Contact = () => {
     return (
@@ -10,9 +12,14 @@ export const Contact = () => {
                 <h1>Contact</h1>
             </header>
             
-            <main className="mainContainer displayFlexColCenter mt-4">
+            <main className="mainContainer displayFlexColCenter flexJustifyContCenter mt-4">
 
-                
+                <h4 className="">Jason Silvis</h4>
+
+                <Avatar
+                   img={avatarDefault}
+                   height='150px'
+                    />
 
                 <div className="phoneContainer text-center mt-4">
                     <Phone /> Phone:
@@ -29,9 +36,8 @@ export const Contact = () => {
                     <br />
                     JSilvis@yahoo.com
                 </div>
-                <br />
 
-                
+                <br />
 
                 <Button name="MyGitHub" url='https://github.com/JSilvis73'/>
             </main>

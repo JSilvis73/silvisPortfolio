@@ -46,7 +46,7 @@ export const Contact = () => {
                 
                 </div>
                 
-                <div className="mainContainerRight">
+                <div className="mainContainerRight rightItem">
                 <ContactForm />
                 </div>
             

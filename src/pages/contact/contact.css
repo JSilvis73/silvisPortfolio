@@ -20,22 +20,23 @@
 }
 
 .leftItem  {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-
+      display: flex;
+      flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+      gap: 15px;
 }
-.itemTwo {
-    grid-column: 1 / span 2;
+
+.rightItem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
     
-}
-.itemThree {
-    grid-column: span 1;
 
 }
+
 
 .displayFlexColCenter {
     display: flex;

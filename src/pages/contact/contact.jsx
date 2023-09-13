@@ -15,41 +15,44 @@ export const Contact = () => {
 
         
             
-            <main className="mainContainer displayFlexColCenter flexJustifyContCenter mt-4">
+            <main className="mainContainer grid mt-4">
 
-                <h4 className="">Jason Silvis</h4>
+                <div className="mainContainerLeft leftItem">
+                    <h4>Jason Silvis</h4>
 
-                <div>
                     <h5> Software Developer</h5>
-                </div>
-
-                <Avatar
-                   img={avatarDefault}
-                   height='150px'
-                    />
-
-                <div className="phoneContainer text-center mt-4">
+                
+                 <Avatar
+                    img={avatarDefault}
+                    height='150px'
+                 />
+               
+                 <div>
                     <Phone /> Phone:
                     <br />
                     330-940-9233
-                </div>
+                 </div>
 
-                <br />
-
-                <div className="emailContainer text-center">
+                
+                 <div>
                     <Envelope /> Email:
                     <br />
                     JSilvis73@gmail.com
                     <br />
                     JSilvis@yahoo.com
+                 </div>
+                
+                    <Button name="MyGitHub" url='https://github.com/JSilvis73' icon={<GithubLogo />}/>
+                
                 </div>
-
-                <br />
-
-                <Button name="MyGitHub" url='https://github.com/JSilvis73' icon={<GithubLogo />}/>
-            </main>
-            <ContactForm />
+                
+                <div className="mainContainerRight">
+                <ContactForm />
+                </div>
             
+            </main>
+            
+
         </div>
     )
 };

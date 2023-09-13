@@ -2,7 +2,9 @@
     height: 300px;
     width: 300px;
 
+
     background-color: aqua;
+    margin-left: auto;
     
 
     display: flex;
@@ -17,5 +19,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+   
     
 }

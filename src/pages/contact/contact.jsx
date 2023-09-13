@@ -3,7 +3,7 @@ import '../contact/contact.css';
 import { Button } from "../../components/button";
 import {Phone, Envelope, GithubLogo} from 'phosphor-react';
 import { Avatar } from "../../components/avatar";
-import avatarDefault from '../../assets/images/avatarDefault.jpg';
+import avatarDefault from '../../assets/images/walking.jpg';
 
 export const Contact = () => {
     return (
@@ -11,10 +11,16 @@ export const Contact = () => {
             <header className="centerText mt-5">
                 <h1>Contact</h1>
             </header>
+
+        
             
             <main className="mainContainer displayFlexColCenter flexJustifyContCenter mt-4">
 
                 <h4 className="">Jason Silvis</h4>
+
+                <div>
+                    <h5> Software Developer</h5>
+                </div>
 
                 <Avatar
                    img={avatarDefault}

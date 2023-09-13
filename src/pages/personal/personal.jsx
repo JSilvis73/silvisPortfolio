@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar } from "../../components/avatar";
 import './personal.css';
-import avatarDefault from '../../assets/images/avatarDefault.jpg';
+import avatarDefault from '../../assets/images/walking.jpg';
 import fEndLanguage from '../../assets/images/front-end-stack.png';
 import frameworks from '../../assets/images/Frameworks.png';
 import github from '../../assets/images/github.png';
@@ -15,6 +15,10 @@ export const Personal = () => {
             <header className="centerText mt-5">
                 <h1>Jason Silvis</h1>
             </header> 
+            
+            <div>
+                <h3>Software Developer</h3>
+            </div>
 
             <div className="personalContainerUpper mt-4">
             <div>
@@ -24,7 +28,7 @@ export const Personal = () => {
                 />
             </div>
 
-            <div className=" mt-5 centerText">
+            <div className="personalContainerMiddle mt-5 centerText">
             Hello, I'm Jason L Silvis, 
             <br />
             a passionate software engineer on a mission to craft exceptional digital experiences. 
@@ -49,7 +53,7 @@ export const Personal = () => {
             <div class="carousel-inner">
               <div class="carousel-item active ">
                 <img src={fEndLanguage} class="d-block w-100" height="500px" alt="Font-end languages logo"/>
-                <div class="carousel-caption d-none d-md-block  mt-2">
+                <div class="carousel-caption d-none d-md-block mt-4">
                   <h5> Coding Languages</h5>
                   <p>Unlock the potential of your online presence with expertise in HTML, CSS and JavaScript.</p>
                 </div>

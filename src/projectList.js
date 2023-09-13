@@ -22,10 +22,10 @@ export const projectList = [
     },
     {
         id: 3,
-        name: 'Example',
+        name: 'Portfolio',
         image:lowLimitEcom,
-        desc: 'Just an example!',
-        url: 'https://github.com/JSilvis73/LowLimitEcom',
-        urlDesc: 'GitHub LowLimit'
+        desc: 'This Portfolio Page! Click the link below to see it on Github!',
+        url: 'https://github.com/JSilvis73/silvisPortfoli',
+        urlDesc: 'GitHub Portfolio'
     }
 ]

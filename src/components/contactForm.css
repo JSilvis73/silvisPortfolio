@@ -1,0 +1,21 @@
+.contactForm-container {
+    height: 300px;
+    width: 300px;
+
+    background-color: aqua;
+    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  
+}
+
+.contactForm-container form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}

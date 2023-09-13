@@ -4,6 +4,7 @@ import { Button } from "../../components/button";
 import {Phone, Envelope, GithubLogo} from 'phosphor-react';
 import { Avatar } from "../../components/avatar";
 import avatarDefault from '../../assets/images/walking.jpg';
+import { ContactForm } from "../../components/contactForm";
 
 export const Contact = () => {
     return (
@@ -47,6 +48,8 @@ export const Contact = () => {
 
                 <Button name="MyGitHub" url='https://github.com/JSilvis73' icon={<GithubLogo />}/>
             </main>
+            <ContactForm />
+            
         </div>
     )
 };

@@ -21,13 +21,14 @@
 
  /* Misc. Style attributes */
 .carousel-item {
-    height: 510px;
+    height: 575px;
     width: 100%;
 }
 
 .carousel-item img {
-    height: 450px;
-    width: 600px
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .carousel-caption {
@@ -37,4 +38,8 @@
 /* Additional Styling */
 .centerText {
     text-align: center;
+}
+
+.testBorder {
+    border: 2px solid orangered;
 }

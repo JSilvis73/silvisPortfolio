@@ -20,6 +20,16 @@
 
 
  /* Misc. Style attributes */
+.carousel-item {
+    height: 510px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 450px;
+    width: 600px
+}
+
 .carousel-caption {
     color: black;
 }

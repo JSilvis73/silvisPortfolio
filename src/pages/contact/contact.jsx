@@ -17,7 +17,7 @@ export const Contact = () => {
             
             <main className="mainContainer grid mt-4">
 
-                <div className="mainContainerLeft leftItem">
+                <div className="leftItem">
                     <h4>Jason Silvis</h4>
 
                     <h5> Software Developer</h5>
@@ -46,7 +46,7 @@ export const Contact = () => {
                 
                 </div>
                 
-                <div className="mainContainerRight rightItem">
+                <div className="rightItem">
                 <ContactForm />
                 </div>
             

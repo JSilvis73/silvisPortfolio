@@ -27,14 +27,14 @@ export const Contact = () => {
                     height='150px'
                  />
                
-                 <div>
+                 <div className="text-center">
                     <Phone /> Phone:
                     <br />
                     330-940-9233
                  </div>
 
                 
-                 <div>
+                 <div className="text-center">
                     <Envelope /> Email:
                     <br />
                     JSilvis73@gmail.com

@@ -19,7 +19,7 @@
     grid-template-rows: auto;
 }
 
-.leftItem  {
+.leftItem {
       display: flex;
       flex-direction: column;
      flex-wrap: nowrap;

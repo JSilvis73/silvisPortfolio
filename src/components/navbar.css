@@ -1,5 +1,13 @@
 .navbar {
-    border: 4px solid greenyellow;
-    background-color: azure;
+    
+    background-color: transparent;
     border-radius: 15px;
+}
+
+.navbar-brand {
+    color:rgb(80, 243, 39);
+}
+
+.nav-link {
+    color:rgb(96, 191, 247);
 }

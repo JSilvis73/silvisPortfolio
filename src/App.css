@@ -1,8 +1,12 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-image: linear-gradient(to bottom, white, rgb(59, 201, 248), #d8d8d8, #d8d8d8);
-        background-repeat: no-repeat;
+     color: rgb(80, 243, 39);
     
+    background-image: linear-gradient(to right bottom, black,black, black ,rgb(96, 191, 247), rgb(80, 243, 39));
+        background-repeat: no-repeat;
+        /* background-color: burlywood; */
+        /* background-image: url(./assets/images/Moon-Stars.png); */
+        
      height: 100%; /* Adjust the height as needed */
     margin: 0;
 }

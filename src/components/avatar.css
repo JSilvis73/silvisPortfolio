@@ -1,5 +1,5 @@
 .avatarContainer > img {
-    border: 5px solid greenyellow;
+    border: 5px solid rgb(96, 191, 247);
     border-radius: 50px;
     box-shadow: 5px 5px 10px black;
 }

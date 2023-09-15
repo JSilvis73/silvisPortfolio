@@ -2,12 +2,14 @@
     
     background-color: transparent;
     border-radius: 15px;
+    background-image: rgba(255, 255, 255, 0.76);
 }
 
 .navbar-brand {
-    color:rgb(80, 243, 39);
+    color:greenyellow;
+    
 }
 
 .nav-link {
-    color:rgb(96, 191, 247);
+    color:greenyellow;
 }

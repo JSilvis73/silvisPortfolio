@@ -10,6 +10,7 @@ function App() {
   return (
    <body>
     <div className="App">
+      <main>
       <Router>
         <Navbar />
         <Routes>
@@ -19,8 +20,10 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      </main>
     </div>
     </body>
+
   );
 }
 

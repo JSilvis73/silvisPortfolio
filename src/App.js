@@ -13,12 +13,25 @@ function App() {
       <main>
       <Router>
         <Navbar />
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Personal />} />
-          <Route path='/projects' element={<Projects />} /> 
+          {/* <Route path='/projects' element={<Projects />} />  }
           <Route path='/contact' element={<Contact />} />
-        </Routes>
+        </Routes> */}
       </Router>
+
+      <section id="personalSection">
+        <Personal />
+      </section>
+
+      <section id="projectsSection">
+      <Projects />
+      </section>
+      
+      <section id="contactSection">
+      <Contact />
+      </section>
+
       <Footer />
       </main>
     </div>

@@ -13,13 +13,13 @@ export const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
+            <a class="nav-link" aria-current="page" href="#personalSection">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/projects">Projects</a>
+            <a class="nav-link" href="#projectsSection">Projects</a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact</a>
+              <a class="nav-link" href="#contactSection">Contact</a>
               </li>
             </ul>
     </div>

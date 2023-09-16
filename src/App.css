@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: greenyellow;
-     background-color: lightslategray;
+     background-color: gray;
 
     /* background-image: linear-gradient(to right bottom, black,black, black ,rgb(96, 191, 247), rgb(80, 243, 39));
         background-repeat: no-repeat; */

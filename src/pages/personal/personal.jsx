@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar } from "../../components/avatar";
 import './personal.css';
-import avatarDefault from '../../assets/images/walking.jpg';
+import avatarDefault from '../../assets/images/Me2.png';
 import fEndLanguage from '../../assets/images/front-end-stack.png';
 import frameworks from '../../assets/images/Frameworks.png';
 import github from '../../assets/images/github.png';
@@ -11,23 +11,23 @@ export const Personal = () => {
     return (
         <div className="personalContainer displayFlexColCenter ">
 
-            
             <header className="centerText mt-5">
                 <h1>Jason Silvis</h1>
+                <br />
+                <h3>Software Developer</h3>
             </header> 
             
-            <div>
-                <h3>Software Developer</h3>
-            </div>
-
             <div className="personalContainerUpper mt-4">
-            <div>
+
+             
+            <div className="personalImageContainer">
                 <Avatar 
                 img={avatarDefault}
-                height='275px'
+                height='400px'
                 />
             </div>
 
+            <section className="summarySection">
             <div className="personalContainerMiddle mt-5 centerText">
             Hello, I'm Jason L Silvis, 
             <br />
@@ -41,9 +41,11 @@ export const Personal = () => {
             <br />
             Let's collaborate and create something extraordinary!
             </div>
+            </section>
             </div>
             
             
+            <section className="skillsSection">
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -82,7 +84,8 @@ export const Personal = () => {
                <span class="visually-hidden">Next</span>
               </button>
             </div>
-            
+            </section>
+
         </div>
     )
 };

@@ -9,7 +9,7 @@ import github from '../../assets/images/github.png';
 
 export const Personal = () => {
     return (
-        <div className="personalContainer displayFlexColCenter ">
+        <div className="personalContainer displayFlexColCenter">
 
             <header className="centerText mt-5">
                 <h1>Jason Silvis</h1>
@@ -17,34 +17,31 @@ export const Personal = () => {
                 <h3>Software Developer</h3>
             </header> 
             
-            <div className="personalContainerUpper mt-4">
+            <div className="personalContainerMain">
 
-             
-            <div className="personalImageContainer">
-                <Avatar 
-                img={avatarDefault}
-                height='400px'
-                />
+            <div className="personalContainerUpper">
+
+              <div className="personalUpperLeft text-center">
+                Hello, I'm Jason L Silvis, 
+                 <br />
+                a passionate software engineer on a mission to craft exceptional digital experiences. 
+                <br />
+                With expertise in JavaScript, React, and Node.js, I bring creativity and precision to every project.
+                <br />
+                 My journey in coding is driven by a deep love for problem-solving and a commitment to user-centric design. 
+                 <br />
+                 When I'm not coding, you'll find me spending time with my family, which fuels my creativity and keeps me inspired. 
+                 <br />
+                 Let's collaborate and create something extraordinary!
+              </div>
+
+              <div className="personalUpperRight ">
+                <img src={avatarDefault} />
+              </div>
             </div>
 
-            <section className="summarySection">
-            <div className="personalContainerMiddle mt-5 centerText">
-            Hello, I'm Jason L Silvis, 
-            <br />
-            a passionate software engineer on a mission to craft exceptional digital experiences. 
-            <br />
-            With expertise in JavaScript, React, and Node.js, I bring creativity and precision to every project.
-            <br />
-            My journey in coding is driven by a deep love for problem-solving and a commitment to user-centric design. 
-            <br />
-            When I'm not coding, you'll find me spending time with my family, which fuels my creativity and keeps me inspired. 
-            <br />
-            Let's collaborate and create something extraordinary!
             </div>
-            </section>
-            </div>
-            
-            
+
             <section className="skillsSection">
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
@@ -85,7 +82,7 @@ export const Personal = () => {
               </button>
             </div>
             </section>
-
+            
         </div>
     )
 };

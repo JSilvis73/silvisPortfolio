@@ -1,17 +1,34 @@
 html {
     scroll-behavior: smooth;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive; color: greenyellow;
+    font-size:5em;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight:500;
 }
 
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #FFFFFF;
-     background-color: #242333;
 
+
+        font-family: 'Times New Roman', Times, serif;
+        background-image: URL("./assets/images/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+       
+        
     /* background-image: linear-gradient(to right bottom, black,black, black ,rgb(96, 191, 247), rgb(80, 243, 39));
         background-repeat: no-repeat; */
 
      height: 100%; /* Adjust the height as needed */
-    margin: 0;
+    
+     margin: 0;
 }
 
 section {

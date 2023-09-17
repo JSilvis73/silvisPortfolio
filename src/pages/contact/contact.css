@@ -1,16 +1,19 @@
+
 .contactContainer {
-    color: black;
-    height: 90vh;
+
+    height: auto;
+    width: 100%;
 }
 
 .mainContainer {
+    color: black;
+
     height: 500px;
     width: 700px;
 
     padding: 5px;
     
-    background-color: rgb(240, 255, 255, 0.5);
-    border: 3px ridge whitesmoke;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
 
     display: grid;

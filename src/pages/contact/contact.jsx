@@ -13,8 +13,6 @@ export const Contact = () => {
                 <h1>Contact</h1>
             </header>
 
-        
-            
             <main className="mainContainer grid mt-4">
 
                 <div className="leftItem">
@@ -33,7 +31,6 @@ export const Contact = () => {
                     330-940-9233
                  </div>
 
-                
                  <div className="text-center">
                     <Envelope /> Email:
                     <br />

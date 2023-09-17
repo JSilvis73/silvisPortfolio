@@ -1,4 +1,5 @@
 footer {
+    
     height: 3vh;
     background-color: transparent;
 
@@ -7,4 +8,8 @@ footer {
     flex-wrap: nowrap;
     align-items: center;
     justify-items: center;
+}
+
+.textWhite {
+    color: white;
 }

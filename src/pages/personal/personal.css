@@ -1,27 +1,57 @@
-.personalImageContainer {
+.personalContainer{
+
+    height: auto;
+    width: 100%;
+
+}
+
+.personalUpperLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+   
+    position: relative;
+    width: 70%;
+    float: left;
+
+    padding: 2%;
+    margin: 25px;
+
+    font-size: 16pt;
+}
+
+.personalUpperRight {
+    text-align: center;
+    width: 30%;
+    position: relative;
+    
+}
+
+.personalUpperRight img {
     position: absolute;
-    margin-left: 70%;
+   
+    height: auto;
+    width: 125%;
+    border-radius: 100px;
     float: right;
 }
 
-.personalContainerUpper{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
 
-    background-color: rgba(240, 248, 255, 0.25);
-
-    padding: 1rem;
-
-    border-radius: 15px;
-    
-
-}
 
 .personalContainerMiddle {
     font-size: large;
     font-weight: 600;
+}
+
+.skillsSection {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
 }
 
 

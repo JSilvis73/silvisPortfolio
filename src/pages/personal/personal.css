@@ -3,6 +3,15 @@
     height: auto;
     width: 100%;
 
+    border: 10px solid greenyellow;
+    border-radius: 100px;
+
+}
+
+.personalContainerMain {
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+
 }
 
 .personalUpperLeft {
@@ -12,8 +21,7 @@
     justify-content: center;
 
     
-    border-radius: 100px;
-    background-color: rgba(255, 255, 255, 0.7);
+
 
    
     position: relative;

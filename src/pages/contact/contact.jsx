@@ -9,7 +9,7 @@ import { ContactForm } from "../../components/contactForm";
 export const Contact = () => {
     return (
         <div className="contactContainer displayFlexColCenter">
-            <header className="centerText mt-5">
+            <header className="centerText">
                 <h1>Contact</h1>
             </header>
 

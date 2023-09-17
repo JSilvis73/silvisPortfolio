@@ -3,13 +3,16 @@
 
     height: auto;
     width: 100%;
+    border: 10px solid greenyellow;
+    border-radius: 100px;
+    padding: 10em;
 }
 
 .mainContainer {
     color: black;
 
-    height: 500px;
-    width: 700px;
+    height: auto;
+    width: 650px;
 
     padding: 5px;
     

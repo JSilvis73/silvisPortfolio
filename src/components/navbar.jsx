@@ -1,11 +1,14 @@
 import React from "react";
+import JSImg from '../assets/images/JSImg.png'
 import './navbar.css';
 
 export const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg text-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">Silvis' Portfolio</a>
+            <a class="navbar-brand" href="/">
+                <img src={JSImg} height="50em"/>
+                Silvis' Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
              <span class="navbar-toggler-icon"></span>
             </button>

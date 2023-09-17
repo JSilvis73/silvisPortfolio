@@ -1,6 +1,7 @@
 .navbar {
-    
-    background-color: transparent;
+    font-weight: 600;
+
+    background-color: rgba(3, 0, 0, 0.10);
     border-radius: 15px;
     
 }

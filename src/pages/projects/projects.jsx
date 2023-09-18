@@ -3,13 +3,17 @@ import '../projects/projects.css';
 import { Project } from "../../components/project";
 import { projectList } from "../../projectList";
 
+
 export const Projects = () => {
     return (
         <div className="projectsContainer displayFlexColCenter">
-        <header className="centerText mt-5">
-            <h1>Projects</h1>
-        </header>
         
+
+        <header className="centerText mt-5">
+            <h1>Projects</h1> 
+        </header>
+      
+
         <main>
             <div className="projectsListContainer displayFlexRow mt-5">
                 {projectList.map((project) => <Project 

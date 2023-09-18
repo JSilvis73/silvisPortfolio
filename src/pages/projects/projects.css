@@ -3,103 +3,104 @@
 .projectsContainer {
   height: auto;
   width: 100%;
-    border: 10px solid greenyellow;
-    border-radius: 100px;
-    padding: 10em;
+  border: 10px solid greenyellow;
+  border-radius: 100px;
+  padding: 10em;
 }
 
 
 /* project styling */
 .projectWrapper {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
 
-    border: 4px solid greenyellow;
-    border-radius: 10px;
+  border: 4px solid greenyellow;
+  border-radius: 10px;
 
-    padding: 1rem;
+  padding: 1rem;
 
-    background-color:  rgba(255, 255, 255, 0.7);
-    box-shadow: 5px 5px 10px black;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 10px black;
 }
 
 
 .projectImage {
-    
-    height: 255px; /* fix after format pictures*/
-    width: 255px;
-    border: 3px solid greenyellow;
-    border-radius: 15px;
+
+  height: 255px;
+  /* fix after format pictures*/
+  width: 255px;
+  border: 3px solid greenyellow;
+  border-radius: 15px;
 }
 
 .card-inner {
-    height: 175px;
-    width: 255px;
+  height: 175px;
+  width: 255px;
 
-    margin: 10px;
-    padding: 5px;
+  margin: 10px;
+  padding: 5px;
 
-   
-    background-color: rgb(235, 235, 235);
-    border-radius: 15px;
+
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
 }
 
 .project-desc {
-    height: 110px;
+  height: 110px;
 }
 
-.card-inner  button {
-    border-radius: 7px;
+.card-inner button {
+  border-radius: 7px;
 }
 
-.card-inner  a {
-    text-decoration: none;
+.card-inner a {
+  text-decoration: none;
 }
 
 
 /* additional style tags */
- .displayFlexColCenter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.displayFlexColCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
 .displayFlexRow {
-    display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   gap: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5em;
 }
 
 .hoveredOver {
-    background-color: greenyellow;
+  background-color: greenyellow;
 }
 
 
 @keyframes shakeAnimation {
-    0% {
-        transform: rotate(0);
-      }
-      25% {
-        transform: rotate(-2deg);
-      }
-      50% {
-        transform: rotate(2deg);
-      }
-      75% {
-        transform: rotate(-2deg);
-      }
-      100% {
-        transform: rotate(0);
-      }
+  0% {
+    transform: rotate(0);
   }
-  
-  .shake-animation {
-    animation: shakeAnimation 0.5s infinite;
-  }
-  
-      
-  
 
+  25% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+
+  75% {
+    transform: rotate(-2deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.shake-animation {
+  animation: shakeAnimation 0.5s infinite;
+}

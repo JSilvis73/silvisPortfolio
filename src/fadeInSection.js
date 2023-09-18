@@ -12,7 +12,7 @@ export const FadeInSection = ({ children }) => {
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.2 }); // Adjust threshold as needed
+    }, { threshold: 0. }); // Adjust threshold as needed
 
     observer.observe(document.querySelector('.fade-in'));
     return () => observer.disconnect();

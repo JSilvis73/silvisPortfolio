@@ -1,4 +1,4 @@
-.personalContainer{
+.personalContainer {
 
     height: auto;
     width: 100%;
@@ -36,17 +36,17 @@
     text-align: center;
     width: 30%;
     position: relative;
-    
+
 }
 
 .personalUpperRight img {
     position: absolute;
-   
+
     height: auto;
     width: 150%;
     top: -50px;
 
-    
+
     border-radius: 100px;
     box-shadow: 5px 5px 15px black;
     float: right;
@@ -67,14 +67,14 @@
 
 
 
- /* Misc. Style attributes */
+/* Misc. Style attributes */
 .carousel-item {
     height: 575px;
     width: 100%;
 }
 
 .carousel-item img {
-    object-fit:contain;
+    object-fit: contain;
     height: 100%;
     width: 100%;
 }

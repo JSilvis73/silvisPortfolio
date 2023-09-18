@@ -3,32 +3,34 @@ html {
     background-color: rgb(255, 255, 255);
 }
 
-h1{
-    font-family: 'Dancing Script', cursive; color: greenyellow;
-    font-size:5em;
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: greenyellow;
+    font-size: 5em;
     font-weight: bolder;
 }
 
 h3 {
     font-size: 2em;
-    font-weight:500;
+    font-weight: 500;
 }
 
 body {
 
 
-        font-family: 'Times New Roman', Times, serif;
-        background-image: URL("./assets/images/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.png");
-        background-size: cover;
-        background-position: center;
-       
-        
+    font-family: 'Times New Roman', Times, serif;
+    background-image: URL("./assets/images/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.png");
+    background-size: cover;
+    background-position: center;
+
+
     /* background-image: linear-gradient(to right bottom, black,black, black ,rgb(96, 191, 247), rgb(80, 243, 39));
         background-repeat: no-repeat; */
 
-     height: 100%; /* Adjust the height as needed */
-    
-     margin: 0;
+    height: 100%;
+    /* Adjust the height as needed */
+
+    margin: 0;
 }
 
 section {

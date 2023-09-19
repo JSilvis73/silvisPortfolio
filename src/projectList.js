@@ -18,7 +18,7 @@ export const projectList = [
         name: 'FoodFinder',
         image:foodFinder,
         desc: 'No idea what to have for dinner? FoodFinder can help you choose! Let it pick for you.',
-        url: 'display url',
+        url: 'https://github.com/JSilvis73/SilvisFoodFinder',
         urlDesc: 'GitHub FoodFinder'
     },
     {

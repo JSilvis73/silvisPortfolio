@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/personalportfolio/static/css/main.49b7d162.css",
-    "main.js": "/personalportfolio/static/js/main.227bef50.js",
-    "static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.png": "/personalportfolio/static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.5933e795cc4611a30a51.png",
-    "static/media/Me2.png": "/personalportfolio/static/media/Me2.2b493d2b64edc47a438b.png",
-    "static/media/personalPortfolioImg.png": "/personalportfolio/static/media/personalPortfolioImg.e7972ce93905a3fb1d2c.png",
-    "static/media/foodFinder.png": "/personalportfolio/static/media/foodFinder.c0a3a63c289ab192f5b3.png",
-    "static/media/lowLimitEcom.png": "/personalportfolio/static/media/lowLimitEcom.d9072e22c229cad6f38d.png",
-    "static/media/github.png": "/personalportfolio/static/media/github.552e4353154ba24390c1.png",
-    "static/media/Frameworks.png": "/personalportfolio/static/media/Frameworks.188c0519baf1fefaf384.png",
-    "static/media/front-end-stack.png": "/personalportfolio/static/media/front-end-stack.94e9d3056bb2707d3e08.png",
-    "static/media/JSImg.png": "/personalportfolio/static/media/JSImg.83692e926b974af31eb7.png",
-    "index.html": "/personalportfolio/index.html",
-    "main.49b7d162.css.map": "/personalportfolio/static/css/main.49b7d162.css.map",
-    "main.227bef50.js.map": "/personalportfolio/static/js/main.227bef50.js.map"
+    "main.css": "/silvisPortfolio/static/css/main.ef81fa33.css",
+    "main.js": "/silvisPortfolio/static/js/main.c238cb9c.js",
+    "static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.png": "/silvisPortfolio/static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.5933e795cc4611a30a51.png",
+    "static/media/Me2.png": "/silvisPortfolio/static/media/Me2.2b493d2b64edc47a438b.png",
+    "static/media/personalPortfolioImg.png": "/silvisPortfolio/static/media/personalPortfolioImg.e7972ce93905a3fb1d2c.png",
+    "static/media/foodFinder.png": "/silvisPortfolio/static/media/foodFinder.c0a3a63c289ab192f5b3.png",
+    "static/media/lowLimitEcom.png": "/silvisPortfolio/static/media/lowLimitEcom.d9072e22c229cad6f38d.png",
+    "static/media/github.png": "/silvisPortfolio/static/media/github.552e4353154ba24390c1.png",
+    "static/media/Frameworks.png": "/silvisPortfolio/static/media/Frameworks.188c0519baf1fefaf384.png",
+    "static/media/front-end-stack.png": "/silvisPortfolio/static/media/front-end-stack.94e9d3056bb2707d3e08.png",
+    "static/media/JSImg.png": "/silvisPortfolio/static/media/JSImg.83692e926b974af31eb7.png",
+    "index.html": "/silvisPortfolio/index.html",
+    "main.ef81fa33.css.map": "/silvisPortfolio/static/css/main.ef81fa33.css.map",
+    "main.c238cb9c.js.map": "/silvisPortfolio/static/js/main.c238cb9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b7d162.css",
-    "static/js/main.227bef50.js"
+    "static/css/main.ef81fa33.css",
+    "static/js/main.c238cb9c.js"
   ]
 }

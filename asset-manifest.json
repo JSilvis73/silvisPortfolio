@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/profilepage/static/css/main.752f9878.css",
-    "main.js": "/profilepage/static/js/main.96452e49.js",
-    "static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.png": "/profilepage/static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.5933e795cc4611a30a51.png",
-    "static/media/Me2.png": "/profilepage/static/media/Me2.2b493d2b64edc47a438b.png",
-    "static/media/personalPortfolioImg.png": "/profilepage/static/media/personalPortfolioImg.e7972ce93905a3fb1d2c.png",
-    "static/media/foodFinder.png": "/profilepage/static/media/foodFinder.c0a3a63c289ab192f5b3.png",
-    "static/media/lowLimitEcom.png": "/profilepage/static/media/lowLimitEcom.d9072e22c229cad6f38d.png",
-    "static/media/github.png": "/profilepage/static/media/github.552e4353154ba24390c1.png",
-    "static/media/Frameworks.png": "/profilepage/static/media/Frameworks.188c0519baf1fefaf384.png",
-    "static/media/front-end-stack.png": "/profilepage/static/media/front-end-stack.94e9d3056bb2707d3e08.png",
-    "static/media/JSImg.png": "/profilepage/static/media/JSImg.83692e926b974af31eb7.png",
-    "index.html": "/profilepage/index.html",
-    "main.752f9878.css.map": "/profilepage/static/css/main.752f9878.css.map",
-    "main.96452e49.js.map": "/profilepage/static/js/main.96452e49.js.map"
+    "main.css": "/personalportfolio/static/css/main.49b7d162.css",
+    "main.js": "/personalportfolio/static/js/main.227bef50.js",
+    "static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.png": "/personalportfolio/static/media/eberhard-grossgasteiger-gz1L_t9Hues-unsplash.5933e795cc4611a30a51.png",
+    "static/media/Me2.png": "/personalportfolio/static/media/Me2.2b493d2b64edc47a438b.png",
+    "static/media/personalPortfolioImg.png": "/personalportfolio/static/media/personalPortfolioImg.e7972ce93905a3fb1d2c.png",
+    "static/media/foodFinder.png": "/personalportfolio/static/media/foodFinder.c0a3a63c289ab192f5b3.png",
+    "static/media/lowLimitEcom.png": "/personalportfolio/static/media/lowLimitEcom.d9072e22c229cad6f38d.png",
+    "static/media/github.png": "/personalportfolio/static/media/github.552e4353154ba24390c1.png",
+    "static/media/Frameworks.png": "/personalportfolio/static/media/Frameworks.188c0519baf1fefaf384.png",
+    "static/media/front-end-stack.png": "/personalportfolio/static/media/front-end-stack.94e9d3056bb2707d3e08.png",
+    "static/media/JSImg.png": "/personalportfolio/static/media/JSImg.83692e926b974af31eb7.png",
+    "index.html": "/personalportfolio/index.html",
+    "main.49b7d162.css.map": "/personalportfolio/static/css/main.49b7d162.css.map",
+    "main.227bef50.js.map": "/personalportfolio/static/js/main.227bef50.js.map"
   },
   "entrypoints": [
-    "static/css/main.752f9878.css",
-    "static/js/main.96452e49.js"
+    "static/css/main.49b7d162.css",
+    "static/js/main.227bef50.js"
   ]
 }

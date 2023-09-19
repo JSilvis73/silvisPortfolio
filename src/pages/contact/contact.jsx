@@ -15,9 +15,9 @@ export const Contact = () => {
         <h1>Contact</h1>
       </header>
     
-      <main className="mainContainer grid mt-4">
+      <main className="mainContainer grid">
         <div className="leftItem">
-          <h4>Jason Silvis</h4>
+          <h4 className="mt-2">Jason Silvis</h4>
 
           <h5> Software Developer</h5>
 
@@ -32,9 +32,9 @@ export const Contact = () => {
           <div className="text-center">
             <Envelope /> Email:
             <br />
-            JSilvis73@gmail.com
+            SilvisDevelopment@gmail.com
             <br />
-            JSilvis@yahoo.com
+            JSilvis030592@yahoo.com
           </div>
 
           <Button

@@ -46,10 +46,18 @@ export const Navbar = () => {
         </div>
 
         <div className="flex-row">
-          <a  className='border-icon margin10px' href="https://www.gmail.com" title="gmail icons">
+          <a
+            className="border-icon"
+            href="https://www.gmail.com"
+            title="gmail icons"
+          >
             <img src={gmail} height="15px" />
           </a>
-          <a className='border-icon' href="https://github.com/JSilvis73" title="github">
+          <a
+            className="border-icon"
+            href="https://github.com/JSilvis73"
+            title="github"
+          >
             <GithubLogo />
           </a>
         </div>

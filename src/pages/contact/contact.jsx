@@ -10,11 +10,10 @@ import { FadeInSection } from "../../fadeInSection";
 export const Contact = () => {
   return (
     <div className="contactContainer displayFlexColCenter">
-
       <header className="centerText">
         <h1>Contact</h1>
       </header>
-    
+
       <main className="mainContainer grid">
         <div className="leftItem">
           <h4 className="mt-2">Jason Silvis</h4>

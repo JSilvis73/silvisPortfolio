@@ -7,7 +7,6 @@ import { FadeInSection } from "../../fadeInSection";
 export const Projects = () => {
   return (
     <div className="projectsContainer displayFlexColCenter">
-
       <header className="centerText">
         <h1>Projects</h1>
       </header>
